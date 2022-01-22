@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+        <title>Тест "CИСТЕМЫ СЧИСЛЕНИЯ"</title>
+		<meta charset="utf-8">
+
+<head>
+<link rel="stylesheet" href="1.css"> 
+
+</head>
+<h2>Тестирование по теме "Системы счисления"</h2> 
+<form id="form1">
+<fieldset class="abbr">
+
+ <legend><font color="red" size="5"><b> Введите личные данные</b></font></legend>
+
+ <label>Фамилия<input type="text" required></label>
+ <label>Имя<input type="text" required></label>
+ <label>Отчество<input type="text" required></label>
+  <label for="group">Группа</label>
+      <select name="group">
+        <option>      </option>
+        <option value="Итб-151">Итб-151</option>
+        <option value="Итб-161">Итб-161</option>
+        <option value="Итб-171">Итб-171</option>
+</select>
+<br>
+<input onclick="clear(text);" type="reset" value="Очитстить личные данные">
+</fieldset>
+</form>
+
+
+
+<form id="form2">
+<fieldset class="dfn" width="600"> 
+<legend class="wbr">Ответы на вопросы теста</legend> 
+<ol>
+<li><i><b>Дайте определение системы счисления</b></i></li>
+<textarea rows="4" cols="64"></textarea> 
+<input class="vasya" type="reset" value="Удалить все ответы">
+
+<li><i><b>Введите основание системы счисления</b></i></li>
+<table border="0" class="left">
+<td>
+<input type="text" name="Reg_1"size="10" id="layer1"/> 
+<input type="text" name="Reg_2" value="10" size="10" id="layer2"/> 
+ <input type="text" name="Reg_3" value="16"size="10" id="layer3"/> 
+ <input type="text" name="Reg_4" value="60"size="10" id="layer4"/> 
+ </td>
+ </table>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ 
+ 
+ 
+<li><i><b>Отметьте аддитивные системы счисления</b></i></li>
+<form action="test.php" enctype="multipart/form-data" method="post" name="test"
+target="_blank">
+<table> 
+<tr> 
+<td><input type="checkbox"> Римская </td> 
+<td><input type="checkbox"> Египетская </td> 
+</tr> 
+<tr> 
+<td><input type="checkbox"> Вавилонская </td> 
+<td><input type="checkbox"> Двоичная </td> 
+</tr> 
+<tr> 
+<td><input type="checkbox"> Факториальная </td> 
+<td><input type="checkbox"> Нега-двоичная </td> 
+</tr> 
+<tr> 
+<td>  </td> 
+<td>  </td> 
+</tr> 
+
+</table> <img src="4Л.png" class="rightimg">
+
+<tr> 
+<td>  </td> 
+<td>  </td> 
+</tr> 
+
+
+<li><i><b>Определите какой сисетеме счисления принадлеит <br />
+заданный базис:1,2,3,5,8,13,21,...</b></i></li>
+
+ <ul style="List-style: none;">
+ <li> <input name="Reg_basis" type="radio" value="10" />десятичная</li>
+<li><input name="Reg_basis" type="radio" value="8" />восьмиричная</li>
+<li><input name="Reg_basis" type="radio" value="Fib" />фибоначчиевая<br /></li>
+<li><input name="Reg_basis" type="radio" value="9" />девятиричная</li>
+<li><input name="Reg_basis" type="radio" value="balanced" />уравненовешенная<br /></li>
+
+</ul>
+
+ </ol>
+
+</fieldset>
+</form>
+<font size='4' face='timesnewroman' >
+<strong><tt><p><u><b>П   р   о   в   е   р   ь   т   е  :  </b></u></p></tt></strong>
+<ul class="faaaaa"></font>
+<li>Заполнили ли Вы поля с личными данными?</li>
+<li>Ответили ли Вы на все вопросы?</li>
+</ul>
+<input class="knpka" type="submit" name="submit1" value="Закончить тест"> 
+</body>
+</html>
